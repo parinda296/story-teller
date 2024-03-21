@@ -1,0 +1,45 @@
+{
+    "id": "lost_in_the_forest",
+    "title": "Lost in the Forest",
+    "intro": {
+      "text": "You find yourself deep in a mysterious forest. The path diverges ahead. What do you choose?",
+      "image": "/assets/images/lost_in_the_forest_intro_image2.jpg"
+    },
+    "choices": [
+      {
+        "choiceId": "take_left_path",
+        "text": "Take the left path",
+        "outcome": {
+          "text": "You discover a hidden waterfall and find a friendly forest creature.",
+          "image": "/assets/images/lost_in_the_forest_left_path_outcome_image.jpg"
+        }
+      },
+      {
+        "choiceId": "go_right",
+        "text": "Go right",
+        "outcome": {
+          "text": "You encounter a dark cave. Do you enter or continue exploring?",
+          "image": "/assets/images/lost_in_the_forest_right_path_outcome_image.jpeg"
+        },
+        "choices": [
+          {
+            "choiceId": "enter_cave",
+            "text": "Enter the cave",
+            "outcome": {
+              "text": "Inside the cave, you find ancient artifacts and clues about the forest's secrets.",
+              "image": "/assets/images/lost_in_the_forest_cave_outcome_image.jpg"
+            }
+          },
+          {
+            "choiceId": "continue_exploring",
+            "text": "Continue exploring",
+            "outcome": {
+              "text": "You find a peaceful clearing with bioluminescent flowers. The forest seems to respond positively to your presence.",
+              "image": "/assets/images/lost_in_the_forest_exploring_outcome_image.jpg"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

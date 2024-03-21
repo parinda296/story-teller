@@ -1,0 +1,63 @@
+{
+    "storyId": "space_odyssey",
+    "title": "Space Odyssey",
+    "intro": {
+      "text": "You are aboard a spaceship on a mission to explore a distant galaxy. Suddenly, you receive a distress signal. What's your decision?",
+      "image": "/assets/images/space_odyssey_intro_image.jpg"
+    },
+    "choices": [
+      {
+        "choiceId": "investigate_signal",
+        "text": "Investigate the distress signal",
+        "outcome": {
+          "text": "You find a damaged alien spacecraft. They request your help in repairing their ship.",
+          "image": "/assets/images/space_odyssey_alien_ship_image.jpg"
+        },
+        "choices": [
+          {
+            "choiceId": "offer_assistance",
+            "text": "Offer assistance",
+            "outcome": {
+              "text": "You collaborate with the aliens to repair their ship. In gratitude, they share advanced technology with your crew.",
+              "image": "/assets/images/space_odyssey_collaboration_image.png"
+            }
+          },
+          {
+            "choiceId": "decline_assistance",
+            "text": "Decline and continue exploring",
+            "outcome": {
+              "text": "You decide to continue your mission. The distressed aliens express disappointment, but you press on.",
+              "image": "/assets/images/space_odyssey_continue_exploring_image.webp"
+            }
+          }
+        ]
+      },
+      {
+        "choiceId": "continue_mission",
+        "text": "Continue with the mission",
+        "outcome": {
+          "text": "You proceed with the original mission, discovering a new habitable planet for colonization.",
+          "image": "/assets/images/space_odyssey_new_planet_image.webp"
+        },
+        "choices": [
+          {
+            "choiceId": "colonize_planet",
+            "text": "Colonize the planet",
+            "outcome": {
+              "text": "Your crew establishes a colony on the newfound planet, paving the way for future interstellar exploration.",
+              "image": "/assets/images/space_odyssey_colonization_image.png"
+            }
+          },
+          {
+            "choiceId": "document_return",
+            "text": "Document and return to base",
+            "outcome": {
+              "text": "You gather data about the habitable planet and safely return to your home base with valuable information.",
+              "image": "/assets/images/space_odyssey_return_to_base_image.jpg"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "space_odyssey",
+        "title": "Space Odyssey",
+        "description": "Embark on an interstellar journey with unexpected twists and choices.",
+        "image": "assets/images/space_odyssey_image.png"
+    },
+    {
+        "id": "lost_in_the_forest",
+        "title": "Lost in the Forest",
+        "description": "Navigate through a mysterious forest with magical creatures and hidden secrets.",
+        "image": "assets/images/lost_in_the_forest_image.png"
+    }
+]
